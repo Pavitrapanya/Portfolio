@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+       
+    <title>Pavitra Chadalavada</title>
+</head>
+<body>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("Main").style.paddingLeft = "250px";
+            document.getElementById("home").style.paddingLeft = "250px";
+
+
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("Main").style.paddingLeft = "0";
+            document.getElementById("home").style.paddingLeft = "0";
+
+
+        }
+       
+
+        function scrolldown() {
+            document.getElementById('Main').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        }
+    </script>
+    <span style="font-size:30px;cursor:pointer;position:fixed;color:aliceblue;" onclick="openNav()">&#9776; </span>
+    <div id="home">
+
+        <center>
+            <div class="gradient">
+
+            </div>
+
+        </center>
+        <h1 class="text" style="top: 40%; left: 50%; color: white;font-size:70px;">Pavitra Chadalavada</h1>
+
+        <center>
+
+            <span class="text" style='font-size:50px;color:aliceblue;' onclick="scrolldown()">&#10507;</span>
+        </center>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <center><img src="photo.jpg" height="150px" width="100px" style="border-radius:25px"></center>
+        <a href="#About">About</a>
+        <a href="#slider-container">Skills</a>
+        <a href="#project">Project</a>
+        <a style="padding-bottom:130px;" href="#cv">Resume</a>
+
+    </div>
+
+
+    <div id="Main" class="Main" style="padding-left:0px;">
+
+        <div id="About" class="About">
+            <table height="650px" width="270px" align="center" style="border-radius:8%;width:90%;background-color: rgb(152, 195, 235);">
+                <tr>
+
+                    <center>
+                    <td colspan="2" style="text-align: center;font-size: 35px;text-decoration-line: underline; text-decoration-color: navy;"> <b>Pavitra Chadalavada</b></td></center>
+                    <td rowspan="2">
+                        <img src="photo.jpg" align="center" height="300px" width="200px">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <table align="center" cellspacing="40px" style="font-size:20px;">
+                            <tr>
+                                <th>College         :  </th>
+                                <td>Chaitanya Bharathi Institute of Technology</td>
+
+                            </tr>
+                            <tr>
+                                <th>Branch           :</th>
+                                <td>Computer Science Engineering</td>
+                            </tr>
+                            <tr>
+                                <th>Current Year      :</th>
+                                <td>Third year</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Graduating Year   :</th>
+                                <td>03-10-2011 </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div id="mail" class="mail"> <a href="pavitrapanya6@gmail.com">E-mail: pavitrapanya6@gmail.com</a></div>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+
+
+        <div id="slider-container" class="slider-container">
+            <center>
+                <div class="slider">
+                    <h1 style="color:white;">SKILLS</h1>
+                    <div class="slides">
+                        <div id="slides__1" class="slide">
+                            <span class="slide__text">
+
+                                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/python-programming-for-beginners-2019.jpg" style="height: 200px; width: 200px; border-radius: 30px;" />
+                                <center><p style="padding:0px;">Python</p></center>
+                                <a class="slide__prev" href="#slides__6" title="Next"></a>
+                                <a class="slide__next" href="#slides__2" title="Next"></a>
+                            </span>
+                        </div>
+                        <div id="slides__2" class="slide">
+                            <span class="slide__text">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkRUGXR_pLaNtbB7Uw9fKjJBWu42VCTQHy-3pAvBp1vC9yiVdH602-e7mRrLDCkKyojKg&usqp=CAU" style="height: 200px; border-radius: 30px; width: 200px;" />
+                                <center><p style="padding:0px;">HTML</p></center>
+                                <a class="slide__prev" href="#slides__1" title="Next"></a>
+                                <a class="slide__next" href="#slides__3" title="Next"></a>
+                            </span>
+                        </div>
+                        <div id="slides__3" class="slide">
+                            <span class="slide__text">
+                                <img src="https://www.wpkube.com/wp-content/uploads/2014/08/css3-1280x720.jpg" style="height: 200px; width: 200px; border-radius: 30px;" />
+                                <center><p style="padding:0px;">CSS</p></center>
+                                <a class="slide__prev" href="#slides__2" title="Next"></a>
+                                <a class="slide__next" href="#slides__4" title="Next"></a>
+                            </span>
+                        </div>
+                        <div id="slides__4" class="slide">
+                            <span class="slide__text">
+                                <img src="https://www.oneeducation.org.uk/wp-content/uploads/2020/10/241.-The-Complete-Full-Stack-JavaScript-Course.jpg" style="height: 200px; width: 200px; border-radius: 30px;" />
+                                <center><p style="padding:0px;">Javascript</p></center>
+                                <a class="slide__prev" href="#slides__3" title="Next"></a>
+                                <a class="slide__next" href="#slides__5" title="Next"></a>
+                            </span>
+
+                        </div>
+                        <div id="slides__5" class="slide">
+                            <span class="slide__text">
+                                <img src="https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png" style="height:200px; width:200px;" />
+                                <center><p style="padding:0px;">Django</p></center>
+                                <a class="slide__prev" href="#slides__4" title="Next"></a>
+                                <a class="slide__next" href="#slides__6" title="Next"></a>
+                            </span>
+                        </div>
+                        <div id="slides__6" class="slide">
+                            <span class="slide__text">
+                                <img src="https://prod-discovery.edx-cdn.org/media/course/image/c332bd5d-2ff1-4f11-868a-6644076c904e-a44b6765f142.png" style="height:200px; width:200px; border-radius:30px;" />
+                                <center><p style="padding:0px;">SQL</p></center>
+                                <a class="slide__prev" href="#slides__5" title="Next"></a>
+                                <a class="slide__next" href="#slides__1" title="Next"></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div id="project" class="project">
+
+            <center><h1 style="color:white;font-size:30px;padding-bottom:60px">Projects</h1></center><br />
+            <div class="container">
+
+
+
+                <div class="box">
+                    <center><img src="idea.png" alt="Logo" style="height:100px;width:90px;"></center>
+                    <h2>Fruit Color Prediction Model</h2>
+                    <p style="padding-bottom:40px;">Built and evaluated the accuracy of multiple ML models like KNN,Logistic Regression,SVM and Decision Trees.</p>
+                    <center>  <div id="view" class="view"> <a href="https://github.com/Pavitrapanya/Fruit-Color-Prediction-Model" target="_blank">View project</a></div></center>
+                </div>
+                <div class="box">
+                    <center><img src="idea.png" alt="Logo" style="height:100px;width:90px;"></center>
+                    <h2>Sentiment Analysis Model</h2>
+                    <p style="padding-bottom:40px;">
+                        Built a Sentiment Analysis model on people's opinion of political leaders in India with data sourced from Twitter &
+                        Reddit Comments using Naive Bayes.
+                    </p>
+                    <center>  <div id="view" class="view"> <a href="https://github.com/Pavitrapanya/Sentiment-Analysis-of-Twitter-and-Reddit-Comments target="_blank">View</a></div></center>
+                </div>
+                <div class="box">
+                    <center><img src="idea.png" alt="Logo" style="height:100px;width:90px;"></center>
+                    <h2>Sport Data Analysis on Cricket</h2>
+                    <p style="padding-bottom:40px;">
+                        Analyzed and compared the performance of the top players from the “England Tour of India 2021” in various areas
+                        such as batting, bowling and fielding.
+                    </p>
+                    <center>  <div id="view" class="view"> <a href="https://github.com/Pavitrapanya/Sport-Data-Analysis-on-Cricket-Data target="_blank">View</a></div></center>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <div id="cv" class="cv">
+
+            <table height="500px" width="270px" align="center" style="border-radius: 8%; width: 90%; background-color: rgb(152, 195, 235);">
+                <tr><td><h1 align=center style="text-decoration-line: underline; text-decoration-color: navy;">Resume</h1></tr></td>
+                <tr>
+                    <td>
+                        <table align=center cellspacing="40px" style="font-size:20px;margin-left:50px; border-left:solid;border-width:4px;border-color:azure;">
+                            <tr>
+                                <td align="center" style="padding-left:60px;">
+                                    <embed src="Pavitra__Resume.pdf"
+                                           width="1000"
+                                           height="400">
+                                    <a href="Pavitra__Resume.pdf" target="_blank" download>
+                                        <div id="mail" class="mail">Download</div>
+
+                                    </a>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="contacts">
+            <div class="contact-heading"><center> <h2>Contact Details</h2></center></div>
+            <div class="contact-details">
+
+
+                <a href="pavitrapanya6@gmail.com" class="contact-button email">
+                    <center><span>Email-Id</span></center>
+                </a>
+                <a href="https://www.linkedin.com/in/example/" class="contact-button linkedin">
+                    <center><span>LinkedIn</span></center>
+                </a>
+            </div>
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+</body>
+</html>
